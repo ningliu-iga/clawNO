@@ -2,7 +2,7 @@
 
 This is the official implementation of clawNO:
 
-Ning Liu*, Yiming Fan*, Xianyi Zeng, Milan Kl\"{o}wer, Lu Zhang, Yue Yu. "[Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws](https://arxiv.org/abs/2312.11176)". [ICML 2024]
+Ning Liu*, Yiming Fan*, Xianyi Zeng, Milan Klöwer, Lu Zhang, Yue Yu. "[Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws](https://arxiv.org/abs/2312.11176)". [ICML 2024]
 
 *Equal contribution
 
@@ -29,7 +29,7 @@ The used datasets in the clawNO paper are available for download [here](https://
 
 * We use an incompressible material model of the Mooney--Rivlin type to generate constitutive material deformation data. The code requires FEniCS installation and can be run using [`run_Mooney_Rivlin_data_gen.sh`](data_gen/constitutive_material_modeling/run_Mooney_Rivlin_data_gen.sh). After the data is generated, we interpolate the data onto a circular domain using [`interp2domain.m`](data_gen/constitutive_material_modeling/interp2domain.m).
 
-## Run
+## Running clawNO
 
 Below are commands for training clawNOs on each of the datasets.
 
