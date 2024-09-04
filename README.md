@@ -2,7 +2,7 @@
 
 This is the official implementation of clawNO:
 
-Ning Liu, Yiming Fan, Xianyi Zeng, Milan Klöwer, Lu Zhang, Yue Yu. "[Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws](https://arxiv.org/abs/2312.11176)". [ICML 2024 Spotlight]
+Ning Liu, Yiming Fan, Xianyi Zeng, Milan Klöwer, Lu Zhang, Yue Yu. "[Harnessing the Power of Neural Operators with Automatically Encoded Conservation Laws](https://proceedings.mlr.press/v235/liu24p.html)". [ICML 2024 Spotlight]
 
 
 ![](assets/clawNO_architecture.png)
